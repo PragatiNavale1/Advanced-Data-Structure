@@ -145,9 +145,9 @@ void lms :: search()
         {
             f =1;
             cout<<"Book Found!!!\n";
-            cout<< "BID\tNAME\tAUTHOR\tPRICE\\n";
-            cout <<temp->bid << "\t" <<temp->title << "\t" <<temp->author << "\t" << temp->price<< "\t" << endl;
-            COUT<<"---------------------------------------------------";
+            cout<< "BID\tNAME\tAUTHOR\tPRICE\t\n";
+            cout <<temp->bid << "\t" <<temp->title << "\t" <<temp->author << "\t" << temp->price<< "\t\n" << endl;
+            cout<<"---------------------------------------------------\n";
         }
         temp =temp->next;
     }
