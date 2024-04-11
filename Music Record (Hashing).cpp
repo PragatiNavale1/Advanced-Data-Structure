@@ -87,7 +87,7 @@ void Album::search()
 {
     int tracKey;
     int no,f=0;
-    cout<<"\nEnter key to SEARCH: ";
+    cout<<"\nEnter Track No to SEARCH: ";
     cin>>tracKey;
     for(i=0;i<n;i++)
     {
@@ -111,7 +111,7 @@ void Album::deletE()
 {
     int tracKey;
     int no,f=0;
-    cout<<"\nEnter key to DELETE: ";
+    cout<<"\nEnter Track No to DELETE: ";
     cin>>tracKey;
     for(i=0;i<n;i++)
     {
@@ -140,7 +140,7 @@ void Album::modify()
 {
     int tracKey;
     int no,f=0;
-    cout<<"\nEnter key to MODIFY: ";
+    cout<<"\nEnter Track No to MODIFY: ";
     cin>>tracKey;
     for(i=0;i<n;i++)
     {
