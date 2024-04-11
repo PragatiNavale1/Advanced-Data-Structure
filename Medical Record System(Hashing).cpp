@@ -2,6 +2,8 @@
 #include<string>
 using namespace std;
 
+//Medical Record System (Linear Probing)
+
 int key[20],c[20],n;
 int i;
 
