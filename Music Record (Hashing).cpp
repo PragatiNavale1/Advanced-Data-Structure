@@ -20,9 +20,9 @@ class Album
 
 void Album::declare()
 {
-	cout<<"\nEnter the Total No Of Keys: ";
+	cout<<"\nEnter the Total No Of Music Albums: ";
 	cin>>n;
-	cout<<"\nEnter The Keys: ";
+	cout<<"\nEnter The Track_id: ";
 	for(i=0;i<n;i++)
 	{
 	cin>>key[i];
