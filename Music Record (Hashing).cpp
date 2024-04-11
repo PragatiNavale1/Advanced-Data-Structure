@@ -2,6 +2,7 @@
 #include<string>
 using namespace std;
 
+//Medical Record System (Linear Probing)
 int key[20],c[20],n;
 int i;
 
@@ -16,6 +17,8 @@ class Album
 	void search();
 	void deletE();
 	void modify();
+	void displayRecord(int index); // Function to display the found record
+
 }h[20];
 
 void Album::declare()
@@ -96,6 +99,7 @@ void Album::search()
         {
             f=1;
             cout<<"\nRecord is Found";
+            displayRecord(no); // Display the found record
             break;
         }
         else
@@ -105,6 +109,13 @@ void Album::search()
             break;
         }
     }
+}
+
+void Album::displayRecord(int index)
+{
+   cout<<"\n| Track NO |\t TITLE |\t SINGER |\t COMPOSER |\t CHAIN |\t";
+    cout<<"\n";
+	cout<<h[index].track_no<<"\t\t\t"<<h[index].title<<"\t\t\t"<<h[index].singer<<"\t\t\t"<<h[index].composer<<"\t\t\t"<<c[i];
 }
 
 void Album::deletE()
